@@ -13,7 +13,7 @@ const mixedMessages = () =>{
     const randomThree = randomSelect(thirdLine);
     return `The message I have for you is: ${randomOne}, ${randomTwo}, ${randomThree}`;
 }
-console.log(mixedMessages);
-console.log(mixedMessages);
-console.log(mixedMessages);
-console.log(mixedMessages);
+console.log(mixedMessages());
+console.log(mixedMessages());
+console.log(mixedMessages());
+console.log(mixedMessages());

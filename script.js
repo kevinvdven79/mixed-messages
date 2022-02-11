@@ -11,4 +11,9 @@ const mixedMessages = () =>{
     const randomOne = randomSelect(firstLine);
     const randomTwo = randomSelect(secondLine);
     const randomThree = randomSelect(thirdLine);
+    return `The message I have for you is: ${randomOne}, ${randomTwo}, ${randomThree}`;
 }
+console.log(mixedMessages);
+console.log(mixedMessages);
+console.log(mixedMessages);
+console.log(mixedMessages);

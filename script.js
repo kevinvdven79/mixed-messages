@@ -4,7 +4,7 @@ const mixedMessages = () =>{
     const thirdLine = ['De zwarte vrijstelling', 'Molgeld', 'Kandidaats gedrag'];
     let arrayLength = '';
     const randomSelect = array =>{
-        arrayLength = length.array;
+        arrayLength = array.length;
         let randomLine = array[Math.floor(Math.random()*arrayLength)];
         return randomLine;
     }
@@ -13,6 +13,11 @@ const mixedMessages = () =>{
     const randomThree = randomSelect(thirdLine);
     return `The message I have for you is: ${randomOne}, ${randomTwo}, ${randomThree}`;
 }
+console.log(mixedMessages());
+console.log(mixedMessages());
+console.log(mixedMessages());
+console.log(mixedMessages());
+console.log(mixedMessages());
 console.log(mixedMessages());
 console.log(mixedMessages());
 console.log(mixedMessages());
